@@ -5,7 +5,7 @@ import shlex
 
 folder_path = input("Enter target path: ").strip()
 raw_extensions = input("Enter target filetypes (e.g., mp4 mov jpeg): ") #can be left blank, in which case it will only use keyword
-raw_key_words = input("Enter identifiable keywords (e.g., 111 applesauce 'ex wife'): ") #can be left blank, in which caser it will only use extensions
+raw_key_words = input("Enter identifiable keywords (e.g., 111 applesauce 'ex wife'): ") #can be left blank, in which case it will only use extensions
 new_destination = input("Enter name of new folder: ").strip()
 
 #creating destination path
